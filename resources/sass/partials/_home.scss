@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.title-main{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.container-movies{
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .card{
+        width: calc(100% / 4);
+        padding: 10px;
+    }
+
+    .title{
+        margin-bottom: 5px;
+    }
+
+    .d-block{
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .movie{
+        border: 1px solid black;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 10px;
+        text-align: center;
+        height: 100%;
+    }
+}

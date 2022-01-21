@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.title-main {
+  width: 100%;
+  text-align: center;
+}
+
+.container-movies {
+  max-width: 1180px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container-movies .card {
+  width: 25%;
+  padding: 10px;
+}
+.container-movies .title {
+  margin-bottom: 5px;
+}
+.container-movies .d-block {
+  display: block;
+  margin-bottom: 5px;
+}
+.container-movies .movie {
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  height: 100%;
+}
